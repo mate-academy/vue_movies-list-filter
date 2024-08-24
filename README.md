@@ -2,7 +2,7 @@
 
 The `App` contains a search field and a list of movies. Implement filtering.
 
-> Here is [the working version](https://mate-academy.github.io/react_movies-list-filter/)
+> Here is [the working version](https://mate-academy.github.io/vue_movies-list-filter/)
 
 - Copy the `.movies` block from your solution of [Vue Movies List](https://github.com/mate-academy/vue_movies-list);
 - on every change save the input value into the `query`;
