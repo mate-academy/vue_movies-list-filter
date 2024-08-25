@@ -5,7 +5,7 @@
 <template>
   <div class="page">
     <div class="page-content">
-      <div class="box">
+      <div class="box" data-cy="MovieSearch">
         <div class="field">
           <label for="search-query" class="label">Search movie</label>
 

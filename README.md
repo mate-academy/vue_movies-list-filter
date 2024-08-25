@@ -4,8 +4,10 @@ The `App` contains a search field and a list of movies. Implement filtering.
 
 > Here is [the working version](https://mate-academy.github.io/vue_movies-list-filter/)
 
-- Copy the `.movies` block from your solution of [Vue Movies List](https://github.com/mate-academy/vue_movies-list);
-- on every change save the input value into the `query`;
+- Copy the `.movies` block from your solution of [Vue Movies List](https://github.com/mate-academy/vue_movies-list) to a `MovieList` component;
+- move the `MovieSearch` to a separate component;
+- implement `v-model` for `MovieSearch`;
+- `query` should be stored in the `App` component;
 - create a `visibleMovies` computed variable containing filtered movies;
 - check if `movie.title` or `movie.description` contains `query`;
 - ignore leading and trailing spaces;
