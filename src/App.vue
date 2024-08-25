@@ -5,13 +5,13 @@
 <template>
   <div class="page">
     <div class="page-content">
-      <div class="box" data-cy="MovieSearch">
+      <div class="box" data-cy="search">
         <div class="field">
           <label for="search-query" class="label">Search movie</label>
 
           <div class="control">
             <input
-              type="text"
+              data-cy="search__field"
               id="search-query"
               class="input"
               placeholder="Type search word"

@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 const page = {
-  searchField: () => cy.get('#search-query'),
-  movies: () => cy.get('.card'),
+  movies: () => cy.byDataCy('movie'),
+  searchField: () => cy.byDataCy('search__field'),
 
   assertMovieTitle: (index, title) => {
-    page.movies().eq(index).find('.title').should('have.text', title);
+    page.movies().eq(index).byDataCy('movie__title').should('have.text', title);
   },
 };
 
